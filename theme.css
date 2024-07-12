@@ -1,11 +1,11 @@
 :root {
-  --argo-primary-color: #3498db;
+  --argo-primary-color: #818aff;
   --argo-secondary-color: #2ecc71;
-  --argo-success-color: #27ae60;
-  --argo-warning-color: #f39c12;
-  --argo-error-color: #e74c3c;
-  --argo-background-color: #ecf0f1;
-  --argo-text-color: #2c3e50;
+  --argo-success-color: #108c32;
+  --argo-warning-color: #ba7522;
+  --argo-error-color: #bd4d4d;
+  --argo-background-color: #05050a;
+  --argo-text-color: #ffffff;
 }
 
 body {
