@@ -1,0 +1,128 @@
+/* General styling for the dark theme */
+body, html {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333333;
+    border-bottom: 1px solid #444444;
+    border-radius: 10px;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #00aaff !important;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #2e2e2e;
+    border-right: 1px solid #444444;
+    border-radius: 10px;
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #444444;
+    color: #00aaff;
+}
+
+/* Main content styling */
+.main-content {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: #2e2e2e;
+    border: 1px solid #444444;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-header, .card-body, .card-footer {
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #333333;
+    border-bottom: 1px solid #444444;
+    color: #ffffff;
+}
+
+.card-body {
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+
+.card-footer {
+    background-color: #333333;
+    border-top: 1px solid #444444;
+    color: #ffffff;
+}
+
+/* Table styling */
+.table {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.table thead th {
+    background-color: #333333;
+    border-bottom: 1px solid #444444;
+    color: #ffffff;
+}
+
+.table tbody tr {
+    border-top: 1px solid #444444;
+}
+
+.table tbody tr:hover {
+    background-color: #444444;
+}
+
+/* Button styling */
+.btn {
+    background-color: #444444;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #00aaff;
+    color: #ffffff;
+}
+
+/* Form elements styling */
+.form-control {
+    background-color: #2e2e2e;
+    border: 1px solid #444444;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #2e2e2e;
+    border-color: #00aaff;
+    color: #ffffff;
+}
+
+/* Tooltip styling */
+.tooltip-inner {
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 10px;
+}
