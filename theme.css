@@ -85,15 +85,16 @@ body {
 }
 
 .argo-table-list__row {
-  background-color: var(--argo-background-color-secondary);
+  background: var(--argo-background-color-secondary);
+  border-radius: "18px"
 }
 
 .argo-table-list__row:nth-child(even) {
-  background-color: var(--argo-background-color-secondary);
+  background: var(--argo-background-color-secondary);
 }
 
 .argo-table-list__row:hover {
-  background-color: #e6f3ff;
+  background: rgba(var(--argo-background-color-secondary), 0.1);
 }
 
 .argo-table-list__head-cell,
