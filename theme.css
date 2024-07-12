@@ -86,7 +86,10 @@ body {
 
 .argo-table-list__row {
   background: var(--argo-background-color-secondary);
-  border-radius: 18px
+  border-radius: 0.75rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(38, 40, 45);
 }
 
 .argo-table-list__row:nth-child(even) {
