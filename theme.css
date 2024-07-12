@@ -86,11 +86,8 @@
   }
   
   .argo-table-list__row {
-    background: var(--argo-background-color-secondary);
-    border-radius: 0.75rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(38, 40, 45);
+    background: var(--argo-background-color-secondary) !important;
+    border-radius: 0.50rem;
   }
   
   .argo-table-list__row:nth-child(even) {
