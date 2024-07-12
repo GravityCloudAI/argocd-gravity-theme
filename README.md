@@ -17,7 +17,7 @@ Application Details
 ### Usage
 
 1. `kubectl edit configmap -n argocd argocd-cm -o yaml`
-2. Add `ui.cssurl` in `data` as below:
+2. Add `ui.cssurl` in `data` -> `ui.cssurl: https://cdn.jsdelivr.net/gh/code-crusher/argocd-gravity-theme@main/argo-theme.css` as below:
 ```YAML
 data:
   admin.enabled: "true"
@@ -27,7 +27,7 @@ data:
   statusbadge.enabled: "false"
   timeout.hard.reconciliation: 0s
   timeout.reconciliation: 180s
-  ui.cssurl: https://cdn.jsdelivr.net/gh/code-crusher/argocd-gravity-theme@main/theme.css
+  ui.cssurl: https://cdn.jsdelivr.net/gh/code-crusher/argocd-gravity-theme@main/argo-theme.css
   url: https://argocd.example.com
 ```
 3. Refersh the ArgoCD UI
