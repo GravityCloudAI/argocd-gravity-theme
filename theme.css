@@ -1,22 +1,27 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --argo-primary-color: #818aff;
-    --argo-secondary-color: #2ecc71;
+    --argo-secondary-color: #5662ff;
     --argo-success-color: #108c32;
     --argo-warning-color: #ba7522;
     --argo-error-color: #bd4d4d;
     --argo-background-color: #05050a;
-    --argo-background-color-secondary: #0f1011;
+    --argo-background-color-secondary: #1a1a1b;
     --argo-text-color: #ffffff;
   }
   
   body {
-    background-color: var(--argo-background-color);
-    color: var(--argo-text-color);
+    background-color: var(--argo-background-color) !important;
+    color: var(--argo-text-color) !important;
   }
-  
-  .top-bar, .sidebar__logo {
-    background-color: var(--argo-primary-color);
+
+  .top-bar {
+    background-color: var(--argo-background-color) !important;
+    border-color: var(--argo-background-color-secondary) !important;
+  }
+
+  .page {
+    background-color: var(--argo-background-color);
   }
   
   .sidebar {
@@ -44,10 +49,12 @@
   .argo-button--base {
     background-color: var(--argo-primary-color);
     color: white;
+    border-radius: 12px;
+    margin-right: 8px !important;
   }
   
   .argo-button--base:hover {
-    background-color: #2980b9;
+    background-color: var(--argo-secondary-color) !important;
   }
   
   .tabs__nav {
@@ -94,8 +101,9 @@
     background: var(--argo-background-color-secondary);
   }
   
-  .argo-table-list__row:hover {
-    background: rgba(var(--argo-background-color-secondary), 0.1);
+  .argo-table-list--clickable .argo-table-list__row:hover {
+    background: #272727 !important;
+    box-shadow: rgba(161, 161, 161, 0.25) 0px 4px 8px -2px, rgba(161, 161, 161, 0.08) 0px 0px 0px 1px;
   }
   
   .argo-table-list__head-cell,
