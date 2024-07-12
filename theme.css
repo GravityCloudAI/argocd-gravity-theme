@@ -5,6 +5,7 @@
   --argo-warning-color: #ba7522;
   --argo-error-color: #bd4d4d;
   --argo-background-color: #05050a;
+  --argo-background-color-secondary: #0f1011;
   --argo-text-color: #ffffff;
 }
 
@@ -18,7 +19,7 @@ body {
 }
 
 .sidebar {
-  background-color: #34495e;
+  background-color: var(--argo-background-color);
 }
 
 .sidebar__nav-item a {
@@ -69,7 +70,7 @@ body {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  border: 1px solid #ddd;
+  border: none;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -84,11 +85,11 @@ body {
 }
 
 .argo-table-list__row {
-  border-top: 1px solid #ddd;
+  background-color: var(--argo-background-color-secondary);
 }
 
 .argo-table-list__row:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: var(--argo-background-color-secondary);
 }
 
 .argo-table-list__row:hover {
@@ -119,7 +120,7 @@ body {
   }
 
   .argo-table-list__row {
-    border: 1px solid #ccc;
+/*     border: 1px solid #ccc; */
     margin-bottom: 10px;
   }
 
