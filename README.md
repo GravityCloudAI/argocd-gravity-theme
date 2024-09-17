@@ -2,6 +2,10 @@
 
 **Current Version: `0.1`v**
 
+### Prerquisites
+1. Have ArgoCD already running
+2. Set ArgoCD to dark theme
+
 ### Screenshots:
 
 > ArgoCD UI
