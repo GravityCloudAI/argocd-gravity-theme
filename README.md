@@ -35,3 +35,6 @@ data:
   url: https://argocd.example.com
 ```
 3. Refersh the ArgoCD UI
+
+> [!NOTE]  
+> To self host the CSS, you can clone the repo and generate a new URL from [JS Deliver](https://www.jsdelivr.com) and replace the URL.
